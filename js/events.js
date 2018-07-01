@@ -9,10 +9,15 @@ function frameIt(){
 }
 
 function pressIt({
-  $("form").on("keydown",function(key){
+$("form").on("keydown",function(key){
     if (key.which ===71){
       alert('You have pressed the mfn G key');
     }
-  
+  }
   )
-})
+});
+
+
+function sumbitIt()  {
+  $('form')
+}
