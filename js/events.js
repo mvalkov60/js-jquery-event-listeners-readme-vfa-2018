@@ -1,7 +1,18 @@
 //define functions here
 
-$(document).ready(function(){
+function getIt(){
+  alert('Hey!');
+}
 
-// call functions here
+function frameIt(){
+  $("img").addClass("tasty");
+}
 
-});
+function pressIt({
+  $("form").on("keydown",function(key){
+    if (key.which ===71){
+      alert('You have pressed the mfn G key')
+    }
+  }
+  )
+})
